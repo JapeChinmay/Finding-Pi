@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.search-box input {
+  padding: 0.3rem;
+  border: 0.2rem solid lightblue;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.search-box h1 {
+  font-family: "Fragment Mono", monospace;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  font-family: "Fragment Mono", monospace;
+}
+
+.search-box button {
+  padding: 0.3rem;
+  border: 1px lightblue solid;
+  border-radius: 3px;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover,
+button:active {
+  background-color: lightcoral;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Fragment Mono", monospace;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  border: 4px solid lightcoral;
+  border-radius: 5px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ddd;
+}
+
+.header {
+  font-weight: bold;
+  background-color: lightcoral;
+}
+
+.cell {
+  flex: 1;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+.delete {
+  flex: 1;
+  padding: 0px;
+  width: 50%;
+  height: 50%;
+
+  border: 2px red solid;
+  border-radius: 3px;
+  background-color: white;
+
+  color: black;
+
+  cursor: pointer;
+}
